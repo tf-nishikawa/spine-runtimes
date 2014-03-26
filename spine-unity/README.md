@@ -22,3 +22,5 @@ A Spine skeleton is a GameObject and can be used throughout Unity like any other
 - This slightly outdated [spine-unity tutorial video](http://www.youtube.com/watch?v=x1umSQulghA) may still be useful.
 - Unity scales large images down by default if they exceed 1024x1024, which causes atlas coordinates to be incorrect. To fix this, override the import settings in the Inspector for any large atlas image you have so Unity does not scale it down.
 - Unity 4.3+'s 2D project defaults cause atlas images added to the project to be imported with the Texture Type "Sprite", which may cause artifacts when using Spine's Skeleton shader. To avoid these artifacts, make sure the Texture Type is set to "Texture".
+
+## test
